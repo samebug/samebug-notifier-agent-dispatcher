@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.samebug</groupId>
+    <artifactId>notifier-agent-dispatcher</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>Samebug notifier agent dispatcher</name>
+    <description>
+        Basically it solves the communication between system class loader and app class loader,
+        as suggested here: https://github.com/raphw/byte-buddy/issues/110
+    </description>
+    <url>http://samebug.io</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <prerequisites>
+        <maven>2.2.1</maven>
+    </prerequisites>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <developers>
+        <developer>
+            <name>Poroszkai Dániel</name>
+            <email>daniel.poroszkai@samebug.io</email>
+            <organization>Samebug</organization>
+            <organizationUrl>http://samebug.io</organizationUrl>
+        </developer>
+    </developers>
+</project>
